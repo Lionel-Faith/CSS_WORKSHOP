@@ -1,0 +1,206 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color:black;
+}
+
+p{
+	font-weight: normal;
+	text-align: justify;
+	padding-top: 20px;
+	padding-right: 5px;
+}
+
+.content-left p{
+	margin-bottom: 15px;
+	margin-top: 8px;
+}
+
+body{
+	background-color: gray;
+}
+
+header{
+	height: 13vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: gray;
+	border-bottom: 5px solid black;
+}
+
+
+ul{
+	display: flex;
+	width: 600px;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #3a3a3a;
+}
+
+ul a:hover{
+	border: 2px solid #c4c4f7;
+	padding: 5px 15px;
+	border-radius: 10px;
+	background-color: #c4c4f7;
+}
+
+
+.floating-image{
+	float: left;
+	border-radius: 50%;
+	margin-right: 10px;
+	border:3px solid black;
+	clear: both;
+}
+
+
+.content-left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	width: 550px;
+	margin: auto;
+}
+
+h2{
+	text-transform: uppercase;
+	font-weight: bolder;
+	color:white;
+	text-decoration:underline;
+	padding-left: 6px;
+
+}
+
+h3{
+	margin-top: 10px;
+}
+
+h1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	color:white;
+	font-size: 50px;
+	text-decoration:underline; 
+}
+
+.btn{
+	width: 150px;
+	height: 40px;
+	padding: 5px 30px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color:#fff;
+	background-color: purple;
+	margin-bottom: 50px;
+}
+
+.btn:hover{
+	background-color: blue;
+}
+
+.btn a{
+	color: black;
+}
+
+.btn a:hover{
+	color:white;
+}
+
+#home{
+	
+}
+
+#home{
+	background-image: url("../RESSOURCE/thesun.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 87vh;
+}
+
+.introduction{
+	height: 87vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+strong{
+	font-size: 100px;
+	color:purple;
+}
+
+.introduction p{
+	font-size: 30px;
+	color: white;
+	margin-top: 20px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.item{
+	width: 400px;
+	margin-top: 4px;
+	padding-bottom: 8px;
+}
+
+
+#Description{
+	border-bottom: 1px solid black;
+}
+
+#skills{
+	border-bottom: 1px solid black;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-around;
+}
+
+.fa-brands,.fa-solid{
+	width: 80px;
+	margin-left: 25px;
+}
+
+.fa-square-instagram{
+	color:pink;
+}
+
+.fa-facebook{
+	color: blue;
+}
+
+.fa-whatsapp{
+	color: green;
+}
+
+.fa-envelope{
+	color:red;
+}
+
+#contact{
+	margin-top: 10px;
+	height: 200px;
+}
